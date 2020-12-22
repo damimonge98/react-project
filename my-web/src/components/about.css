@@ -1,0 +1,34 @@
+
+.DivsProp {
+	background-color: #E1F7EF;
+	width:900px;
+	height: 650px;
+	margin-top: 30px;
+	display: block;
+	margin: auto;
+	}
+
+
+.title {
+	background-color: #B2F5DD;
+	font-family: Century Gothic;
+	text-align: center;
+	padding-top: 20px;
+	
+
+}
+
+
+.textAbout {
+	font-family: Century Gothic;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.ImgAbout {
+	width: 400px;
+	height: 300px;
+	display: block;
+	margin: auto;
+	justify-content: center;
+}

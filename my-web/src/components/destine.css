@@ -1,0 +1,40 @@
+.DestineProp {
+	margin-top: 30px;
+	background-color: #E1F7EF ;
+	width: 300px;
+	height: 300px;
+	padding: 1px;
+}
+
+.DestineProp:hover {
+	background-color: #B2F5DD;
+}
+
+.DestinePropWithoutHover {
+	margin-top: 30px;
+	background-color: #E1F7EF ;
+	width: 300px;
+	height: 300px;
+	padding: 1px;
+}
+
+
+.Images {
+	width: 250px;
+	height: 200px;
+	display: block;
+	justify-content: center;
+	margin: auto;
+}
+
+.Nombre {
+	text-align: center;
+	align-items: center;
+	font-family: Century Gothic;
+}
+
+.InfoProp {
+	font-family: Century Gothic;
+	text-align: center;
+}
+

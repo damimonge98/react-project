@@ -1,0 +1,19 @@
+.DivProp {
+	width: all;
+	height: 80px;
+	background-color: #B2F5DD;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;}
+
+.NavLink {
+	font-family: Century Gothic;
+	font-size: 30px;
+	text-decoration: none;
+	color:#059981;
+	font-weight: bold;
+}
+
+.NavLink:hover {
+	background : #CEF5EF;
+}

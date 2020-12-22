@@ -1,0 +1,20 @@
+.Background {
+	background-color: #F2E0AA
+}
+
+.images {
+	justify-content: center;
+	display: block;
+	margin: auto;
+}
+
+.text {
+	font-family: Century Gothic;
+}
+
+.ContenedorDiv {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+

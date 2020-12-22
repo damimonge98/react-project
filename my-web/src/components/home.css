@@ -1,0 +1,28 @@
+.titleHome {
+	text-align: center;
+}
+
+.DivProps {
+	background-color: #E1F7EF;
+}
+
+.text {
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.img {
+	justify-content: center;
+	display: block;
+	margin: auto;
+	width: 500px;
+	height: 400px;
+}
+
+.Red {
+	background-color: #C67372;
+	text-align: center;
+}

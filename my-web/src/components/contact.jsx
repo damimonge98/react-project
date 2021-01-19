@@ -1,7 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import "./contact.css";
 
 export default function Contact () {
+
+	const [data, setData] = useState ({
+		nombre: "",
+		apellido: "",
+		consulta: "",
+		email: ""
+	})
+
+	console.log(data)
+	const handlerChange = function (e) {
+	setData ({...data,
+	[e.target.name] : e.target.value})
+	}	 
+	
+
 	return (
 		<div className = "DivProps"> 
 			<h1 className = "title"> CONTACTO </h1>
@@ -13,10 +28,10 @@ export default function Contact () {
 			<p className = "textContact"> 
 			También podes dejarnos tus datos y te contactamos
 			<form>
-			<input type = "text" value = "" placeholder= "Nombre..."/>
-			<input type = "text" value = "" placeholder= "Apellido..."/>
-			<input type = "text" value = "" placeholder= "Tipo de consulta..."/>
-			<input type = "text" value = "" placeholder= "E-mail.."/>
+			<input type = "text" name = "nombre" value = {data.nombre} onChange = {handlerChange} placeholder= "Nombre..."/>
+			<input type = "text" name = "apellido" value = {data.apellido} onChange = {handlerChange} placeholder= "Apellido..."/>
+			<input type = "text" name = "consulta" value = {data.consulta} onChange = {handlerChange}placeholder= "Tipo de consulta..."/>
+			<input type = "text" name = "email" value = {data.email} onChange = {handlerChange}  placeholder= "E-mail.."/>
 			<input type = "submit" value = "ENVIAR" />
 			</form>
 			</p>

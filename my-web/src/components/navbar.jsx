@@ -7,7 +7,7 @@ export default function NavBar () {
 
 					
  					<NavLink to = "/" className = "NavLink">Home</NavLink>
- 					<NavLink to = "/destines" className = "NavLink" >Destinos (a partir de 2021) </NavLink>
+ 					<NavLink to = "/destines" className = "NavLink" >Destinos (2021) </NavLink>
  					<NavLink to = "/about" className = "NavLink">Sobre Nosotros</NavLink>
  					<NavLink to = "/contact" className = "NavLink"> Contacto</NavLink>
   					

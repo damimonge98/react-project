@@ -23,6 +23,14 @@
 	font-family: Century Gothic;
 	font-size: 20px;
 	padding: 10px;
+	text-decoration: none;
+}
+
+.textAbout li {
+	font-family: Century Gothic;
+	font-size: 20px;
+	padding: 10px;
+	text-decoration: none;
 }
 
 .ImgAbout {

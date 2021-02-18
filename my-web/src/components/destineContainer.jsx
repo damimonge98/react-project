@@ -1,6 +1,7 @@
 import React from "react";
 import Destine from "./destine.jsx"
-
+import Footer from "./footer";
+import "./destineContainer.css";
 
 const objInformacion = [{
                         name: "MISIONES",
@@ -45,8 +46,6 @@ const objInformacion = [{
 
 
 export default function DestineContainer () {
-	return objInformacion.map(elemento => <Destine name = {elemento.name} info = {elemento.infoLugar} img = {elemento.imgLugar}/>)
-
-
-
+    
+	return objInformacion.map(elemento => <Destine name = {elemento.name} info = {elemento.infLugar} img = {elemento.imgLugar}/>)
 }

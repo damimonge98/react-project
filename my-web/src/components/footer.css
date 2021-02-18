@@ -1,0 +1,27 @@
+.containerFooter {
+    background-color: #BBFCFF;
+    height: 80px;
+    margin-top: 30px;
+}
+
+
+.banner {
+	display: block;
+	background-color: rgb(38, 170, 152);
+	width: all;
+	height: 10px;
+}
+
+.miniBanner {
+	display: block;
+	background-color: black;
+	width: all;
+	height: 5px;
+}
+
+.footerContentDiv {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+}

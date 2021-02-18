@@ -1,19 +1,51 @@
 .DivProp {
 	width: all;
 	height: 80px;
-	background-color: #B2F5DD;
+	background-color: #BBFCFF;
 	display: flex;
 	justify-content: space-around;
-	align-items: center;}
+	align-items:center;}
 
 .NavLink {
 	font-family: Century Gothic;
-	font-size: 30px;
+	font-size: 20px;
 	text-decoration: none;
-	color:#059981;
+	color: black;
 	font-weight: bold;
+	text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 
-.NavLink:hover {
-	background : #CEF5EF;
+.NavLink:hover, .NavLink:focus {
+	background-size: 100% 2px;
+	text-decoration: none;
+	color: black
+}
+
+
+.images {
+	margin-right: 0px;
+	margin-left: 0px;
+	height: 80px;
+	mix-blend-mode: multiply;
+	cursor: pointer;
+}
+
+
+.banner {
+	display: block;
+	background-color: rgb(38, 170, 152);
+	width: all;
+	height: 10px;
+}
+
+.miniBanner {
+	display: block;
+	background-color: black;
+	width: all;
+	height: 5px;
 }

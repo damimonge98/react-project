@@ -1,34 +1,59 @@
+.section {
+	margin-top: 0px;
+	background-color: #BBFCFF;
+	width: all;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
 
-.DivsProp {
-	background-color: #E1F7EF;
-	width:900px;
-	height: 650px;
-	margin-top: 30px;
-	display: block;
+.h1Section {
+	text-align: center;
+	font-size: 30px;
 	margin: auto;
+
+}
+
+.divAbout {
+	background-color: white;
+	width:all;
+	height: 500px;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: flex;
 	}
+
+.divCompromiseContainer {
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: white;
+	margin-top: 30px;
+}
+
+.divMisionAndVision {
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: white;
+	margin-top: 30px;
+}
 
 
 .title {
 	background-color: #B2F5DD;
 	font-family: Century Gothic;
 	text-align: center;
-	padding-top: 20px;
-	
-
+	margin: auto	
 }
 
+.divObjectives {
+	background: white;
+	width:1000px;
+	margin: auto;
+}
 
 .textAbout {
 	font-family: Century Gothic;
-	font-size: 20px;
-	padding: 10px;
-	text-decoration: none;
-}
-
-.textAbout li {
-	font-family: Century Gothic;
-	font-size: 20px;
+	font-size: 18px;
 	padding: 10px;
 	text-decoration: none;
 }

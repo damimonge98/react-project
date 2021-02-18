@@ -5,7 +5,7 @@ export default function destineShow (props) {
 	
 	return (<div className = "DestineShowStyle"> 
 	<button onClick = {props.onClick} className = "button"> X </button>
-	Info no disponible por el momento
+	<p className = "info">Info no disponible por el momento</p>
 	</div>)
 
 

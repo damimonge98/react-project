@@ -1,9 +1,19 @@
+
 .titleHome {
 	text-align: center;
 }
 
-.DivProps {
-	background-color: #E1F7EF;
+.divProps {
+	display:flex;
+	background-color: white;
+}
+
+.divContainerTitleandText {
+	display: block;
+	background-color: white;
+	width: all;
+	margin-top: 30px;
+	margin-right: 50px;
 }
 
 .text {
@@ -14,15 +24,23 @@
 	margin-right: 100px;
 }
 
-.img {
-	justify-content: center;
-	display: block;
-	margin: auto;
-	width: 500px;
-	height: 400px;
+.divImageContainer {
+	margin-top: 30px;
+	background-color:white;
+	margin-right: 50px;
 }
 
-.Red {
-	background-color: #C67372;
-	text-align: center;
+.img {
+	justify-content: center;
+	margin: auto;
+	width: 400px;
+	height: 300px;
+}
+
+.sliderDiv {
+	background-color: red;
+}
+
+.footer {
+	margin-bottom: 0px;
 }

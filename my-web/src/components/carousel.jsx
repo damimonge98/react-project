@@ -13,12 +13,12 @@ export default function ImageCarousel () {
                     <img 
                     className="d-block w-100"
                     className= "carouselImage"
-                    src="https://s3-us-west-2.amazonaws.com/denomades/blog/wp-content/uploads/2020/06/03154303/shutterstock_1691334718.jpg"
+                    src="https://www.columbus-outdoor.com/blog/wp-content/uploads/2019/11/IMG_5252.jpg"
                     alt="First slide"
                     />
                 <Carousel.Caption>
                     <h3>BARILOCHE</h3>
-                    <p>En Bariloche te esperan montañas, paseos, atardeceres frente al lago, brindis con cerveza artesanal, el chocolate y cien razones más para disfrutar tu próximo viaje.</p>
+                    <p className = "captionText"> En el sur de Argentina te esperan montañas, paseos, atardeceres frente al lago, brindis con cerveza artesanal, el chocolate y cien razones más para disfrutar tu próximo viaje.</p>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -27,12 +27,12 @@ export default function ImageCarousel () {
                     <img
                     className="d-block w-100"
                     className= "carouselImage"
-                    src="https://i1.wp.com/criptotendencia.com/wp-content/uploads/2019/12/criptomoneda-en-misiones.jpg?fit=1312%2C872&ssl=1"
+                    src="http://www.alicanteturismo.com.ar/wp-content/uploads/2016/05/esterosibera.jpg"
                     alt="Second slide"
                     />
                 <Carousel.Caption>
-                    <h3>MISIONES</h3>
-                    <p>Enmarcado por la famosa tierra colorada de la provincia, por sus saltos de agua y por su selva impenetrable, Misiones sigue siendo uno de los destinos mas elegidos por miles de viajeros.</p>
+                    <h3>LITORAL SOÑADO</h3>
+                    <p>Enmarcado por la famosa tierra colorada, por sus saltos de agua, impenetrables selvas y extensos ríos; el litoral sigue siendo uno de los destinos mas elegidos por miles de viajeros.</p>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -40,11 +40,11 @@ export default function ImageCarousel () {
                     <img
                     className="d-block w-100"
                     className= "carouselImage"
-                    src="https://upload.wikimedia.org/wikipedia/commons/7/77/Calle_de_Tilcara%2C_Jujuy%2C_Argentina.jpg"
+                    src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/04171015/Contenido-Turismo-sf-1.jpg"
                     alt="Third slide"
                     />
                 <Carousel.Caption>
-                    <h3>JUJUY</h3>
+                    <h3>ENCANTO JUJEÑO</h3>
                     <p>Caminar por la tierra jujeña es retar al paso del tiempo. Junto a la Pachamama desaparecen las barreras y en pocos kilómetros se puede apreciar una multiplicidad de paisajes como cerros multicolores, selvas y hasta grandes desiertos de altura.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -53,12 +53,12 @@ export default function ImageCarousel () {
                     <img
                     className="d-block w-100"
                     className= "carouselImage"
-                    src="https://uberblogapi.10upcdn.com/1079x547/smart/filters:format(webp)/blogapi.uber.com/wp-content/uploads/2018/09/AF_Explora%CC%81-estos-X-lugares-para-pasar-el-di%CC%81a-en-Buenos-Aires-1024x512.jpg"
+                    src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/09/04171024/Contenido-Turismo-sf-3.jpg"
                     alt="Third slide"
                     />
                 <Carousel.Caption>
-                    <h3>BUENOS AIRES</h3>
-                    <p>Diversa, extrema, acogedora, Buenos Aires es una excelente anfitriona, que recibe a personas de todo el mundo y las hace sentirse como en casa.</p>
+                    <h3>CHUBUT</h3>
+                    <p>Famosa por su biodiversidad, que le valió el reconocimiento de Patrimonio Mundial; querida por la belleza y la inmensidad de su paisaje que se adentra en las aguas azules, Chubut enamora a cualquiera que lo visita.</p>
                 </Carousel.Caption>
             </Carousel.Item>
 

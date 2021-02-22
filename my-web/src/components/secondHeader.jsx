@@ -9,8 +9,8 @@ export default function SecondHeader (props) {
         case "Home":
             break;
         case "Contacto":
-            urlImage = "https://img.17qq.com/images/qrsrcurtucx.jpeg";
-            positionImage = "60% 60%";
+            urlImage = "https://www.diariourbano.com.ar/wp-content/uploads/2020/11/calafate-1536x878.jpg";
+            positionImage = "10% 10%";
             break;
         case "Sobre Nosotros":
             urlImage = "https://tripin.travel/wp-content/uploads/2020/06/turismo-mendoza-2-web.jpg"

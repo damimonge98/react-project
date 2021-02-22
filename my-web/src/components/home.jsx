@@ -11,7 +11,7 @@ export default function Home () {
         <ImageCarousel/>
         <div className = "divProps">
                   <div className = "divContainerTitleandText">
-                    <h2 className = "titleHome"> Bienvenidos a <b>ViajAR</b>. </h2>
+                    <h2 className = "titleHome"> BIENVENIDOS A VIAJAR </h2>
                     <p className = "text"> 
 
                         <p className = "insideText"> Creemos que la mejor inversión que podés hacer en tu vida es viajar.</p>

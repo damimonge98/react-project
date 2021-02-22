@@ -7,6 +7,7 @@ import About from "./components/about.jsx";
 import DestineContainer from "./components/destineContainer.jsx";
 import Home from "./components/home.jsx";
 import Footer from "./components/footer";
+import SecondHeader from "./components/secondHeader";
 
 
 
@@ -21,6 +22,7 @@ function App() {
     <Route exact path = "/" component = {Home} />
     <Route path = "/contact" component = {Contact} />
     <Route path = "/about" component = {About} />
+    <Route path = "/destines" render = {()=> <SecondHeader name = "Nuestros Destinos"/>} />
     <div className = "ContenedorDiv">
     <Route path = "/destines" component = {DestineContainer} />
     </div>

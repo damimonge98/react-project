@@ -1,0 +1,23 @@
+
+
+.sectionName {
+    background-color:#1ed6a8;
+    height: 90px;
+    width: 430px;
+    margin-top:130px;
+    margin-left: 150px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Century Gothic;
+    color: white
+}
+
+.bannerSectionDiv {
+    display: block;
+    height:30px;
+    width: all;
+    background: #1ed6a8;
+}
+
+

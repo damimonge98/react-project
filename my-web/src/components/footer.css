@@ -7,14 +7,14 @@
 
 .banner {
 	display: block;
-	background-color: rgb(38, 170, 152);
+	background-color: #1ed6a8;
 	width: all;
 	height: 10px;
 }
 
 .miniBanner {
 	display: block;
-	background-color: black;
+	background-color: #03848d ;
 	width: all;
 	height: 5px;
 }

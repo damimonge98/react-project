@@ -10,7 +10,7 @@
 	font-family: Century Gothic;
 	font-size: 20px;
 	text-decoration: none;
-	color: black;
+	color: #03848d;
 	font-weight: bold;
 	text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
@@ -23,7 +23,7 @@
 .NavLink:hover, .NavLink:focus {
 	background-size: 100% 2px;
 	text-decoration: none;
-	color: black
+	color: #03848d
 }
 
 

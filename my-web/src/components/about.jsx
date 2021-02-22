@@ -1,12 +1,11 @@
 import React from "react";
 import "./about.css";
 import Footer from "./footer";
+import SecondHeader from "./secondHeader.jsx";
 
 export default function About () {
 	return (<div>
-				<div className = "section">
-					<h1 className = "h1Section">SOBRE NOSOTROS </h1>
-				</div>
+				<SecondHeader name="Sobre Nosotros"/>
 				<div className = "divAbout">
 					<div className = "divCompromiseContainer">
 						<h2 className = "title"> EL COMPROMISO NOS DISTINGUE </h2>
@@ -44,12 +43,14 @@ export default function About () {
 				<div className = "divObjectives">
 					<h2 className = "title"> PRINCIPALES OBJETIVOS </h2>
 					<p className = "textAbout"> 
-					Brindar un alto nivel de servicios adecuados para personas que buscan experiencias relajantes, cómodas y memorables en la industria hotelera y turística.
-					Evaluar los problemas culturales, económicos y sociales actuales que afectan la industria del turismo y los viajes.
-					Ofrecer los servicios de viaje a precios muy razonables.
-					Ser una empresa conocida por su honestidad y transparencia al brindarle las mejores soluciones de viaje para su negocio.
+					<b>»</b> Brindar un alto nivel de servicios adecuados para personas que buscan experiencias relajantes, cómodas y memorables en la industria hotelera y turística.
+					<br/>
+					<b>»</b> Evaluar los problemas culturales, económicos y sociales actuales que afectan la industria del turismo y los viajes.
+					<br/>
+					<b>»</b> Ofrecer los servicios de viaje a precios muy razonables.
+					<br/>
+					<b>»</b> Ser una empresa conocida por su honestidad y transparencia al brindarle las mejores soluciones de viaje para su negocio.
 					</p>
-					<img src = "https://previews.123rf.com/images/cppzoe/cppzoe1710/cppzoe171000018/87607260-amigos-felices-viajes-concepto-de-expedici%C3%B3n.jpg" className = "ImgAbout" />
 				</div>
 
 			

@@ -1,8 +1,11 @@
 .DivProps {
 	font-family: Century Gothic;
 	justify-content: center;
+	margin-top: 30px;
+	height: 230px;
 }
 
 .textContact {
 	text-align: center;
 }
+

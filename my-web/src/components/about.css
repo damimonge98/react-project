@@ -39,10 +39,11 @@
 
 
 .title {
-	background-color: #B2F5DD;
+	background-color: #1ed6a8;
 	font-family: Century Gothic;
 	text-align: center;
-	margin: auto	
+	margin: auto;
+	color: white;
 }
 
 .divObjectives {

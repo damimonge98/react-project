@@ -5,7 +5,7 @@ import SecondHeader from "./secondHeader.jsx";
 
 export default function About () {
 	return (<div>
-				<SecondHeader name="Sobre Nosotros"/>
+				<SecondHeader name="» Sobre Nosotros"/>
 				<div className = "divAbout">
 					<div className = "divCompromiseContainer">
 						<h2 className = "title"> EL COMPROMISO NOS DISTINGUE </h2>

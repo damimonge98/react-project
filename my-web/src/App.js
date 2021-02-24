@@ -22,7 +22,7 @@ function App() {
     <Route exact path = "/" component = {Home} />
     <Route path = "/contact" component = {Contact} />
     <Route path = "/about" component = {About} />
-    <Route path = "/destines" render = {()=> <SecondHeader name = "Nuestros Destinos"/>} />
+    <Route path = "/destines" render = {()=> <SecondHeader name = "» Nuestros Destinos"/>} />
     <div className = "ContenedorDiv">
     <Route path = "/destines" component = {DestineContainer} />
     </div>

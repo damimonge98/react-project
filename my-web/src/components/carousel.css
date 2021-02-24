@@ -7,9 +7,23 @@
 .carouselImage {
     object-fit: cover;
     width: 1500px;
-    height: 500px;
+    height: 530px;
+	cursor: pointer;
+}
+
+
+.titleCaptionCarousel {
+	background: #1ED6A8;
+	height:90px;
+	width: 250px;
+    margin-left:800px;
+	padding-top:30px;
+	justify-content: center;
+	align-items: center;
+	font-family: Century Gothic;
+	cursor: pointer;
 }
 
 .captionText {
-    color: white;
+	background:transparent
 }

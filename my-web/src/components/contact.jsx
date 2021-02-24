@@ -21,7 +21,7 @@ export default function Contact () {
 
 	return (
 		<div>
-			<SecondHeader name ="Contacto"/>
+			<SecondHeader name ="» Contacto"/>
 			<div className = "DivProps"> 
 				<p className = "textContact"> <b>Telefono:</b> +54(342)5456126  <br/>
 					<b>Facebook:</b> ViajAR <br/>

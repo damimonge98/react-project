@@ -11,7 +11,7 @@ export default function Footer () {
             <div className = "footerContentDiv">
                 <p className = "footerContent"> <Link to="/"> <b>Terminos y condiciones</b></Link></p>
                 <p className = "footerContent"> <Link to="/contact"> <b>Contactanos por promociones especiales</b></Link> </p>
-                <p className = "footerContent"> <Link to= "/privacy"><b>Politicas de privacidad</b></Link></p>
+                <p className = "footerContent"> <Link to= "/"><b>Politicas de privacidad</b></Link></p>
                 <p>© 2021 viajAR.</p>
             </div>
         </div>

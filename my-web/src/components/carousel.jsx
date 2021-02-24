@@ -30,20 +30,6 @@ export default function ImageCarousel () {
                 </Carousel.Caption>
             </Carousel.Item>
 
-
-            <Carousel.Item interval={2000}>
-                    <img
-                    className="d-block w-100"
-                    className= "carouselImage"
-                    src="http://www.alicanteturismo.com.ar/wp-content/uploads/2016/05/esterosibera.jpg"
-                    alt="Second slide"
-                    onClick = {onReturn}
-                    />
-                <Carousel.Caption>
-                    <h3 className = "titleCaptionCarousel" onClick = {onReturn}> Aventurate</h3>
-                </Carousel.Caption>
-            </Carousel.Item>
-
             <Carousel.Item interval={2000}>
                     <img
                     className="d-block w-100"

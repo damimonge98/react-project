@@ -25,3 +25,26 @@
 	align-items: center;
 	margin-top: 20px;
 }
+
+@media only screen and (max-width:717px) {
+	.containerFooter {
+		height: 100%
+	}
+
+	.footerContentDiv {
+		display: block;
+		text-align: center;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width:718px) and (max-width:900px) {
+	.containerFooter {
+		height: 100%
+	}
+	.footerContentDiv {
+		display: block;
+		text-align: center;
+		font-size: 1em;
+	}
+}

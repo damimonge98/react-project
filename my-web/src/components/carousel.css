@@ -27,3 +27,19 @@
 .captionText {
 	background:transparent
 }
+@media only screen and (min-width:718px) and (max-width: 1200px) {
+	.titleCaptionCarousel {
+		margin:auto;
+		width:80%;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width:717px) {
+	.titleCaptionCarousel {
+		width: 80%;
+		height: 50%;
+		margin: auto;
+		padding-top: 10px;
+	}
+}

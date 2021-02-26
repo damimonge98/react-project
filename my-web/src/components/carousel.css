@@ -1,12 +1,12 @@
 .carouselContainerDiv {
-    width: all;
+    width: 100%;
     height:500px;
     margin:auto;
 }
 
 .carouselImage {
     object-fit: cover;
-    width: 1500px;
+    width: 100%;
     height: 530px;
 	cursor: pointer;
 }

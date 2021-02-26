@@ -11,7 +11,7 @@ export default function NavBar () {
 		history.push("/")	
 	}
 	return (
-		<div>
+		<div className = "containerDivNavBar">
 			<div className = "DivProp"> 
 				<img onClick = {onReturn} src = "http://imgfz.com/i/wzDp4dx.jpeg" className = "images"/>					
 				<NavLink to = "/" className = "NavLink"> HOME</NavLink>

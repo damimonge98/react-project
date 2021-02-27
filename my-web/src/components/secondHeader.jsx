@@ -21,16 +21,17 @@ export default function SecondHeader (props) {
             break;        
     }
     const containerDivSecondHeader = {
+            width: "100%",
             backgroundImage : "url("+ urlImage +")",
             backgroundSize : "cover",
             backgroundPosition : positionImage, 
-            height : "220px",
-            display : "flex",
+            height : "88%",
+            display : "flex"
     }
 
     return (
-    <div>
-        <div style = {containerDivSecondHeader} > 
+    <div className = "divHomeSection">
+        <div style = {containerDivSecondHeader}> 
         <div className = "sectionName"> <i className="fas fa-angle-double-right"></i>  {props.name} </div>
         </div>
         <div className = "bannerSectionDiv"></div>

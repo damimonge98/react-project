@@ -3,16 +3,23 @@ import "./home.css";
 import Footer from "./footer";
 import ImageCarousel from "./carousel";
 import SecondHeader from "./secondHeader";
-
+import {useHistory} from "react-router-dom";
 
 export default function Home () {
-	return (
+  
+  const history = useHistory()
+
+  function onReturn () {
+  history.push("/destines")	
+}
+
+  return (
       <div className = "containerDiv">
         <SecondHeader name = "» Inicio" />
         <div className = "middleHome">
-       Tu mejor inversión es ViajAR. </div>
-          <div className = "divProps">        
-      </div> 
+       Viaja por Argentina </div>
+          <div className = "divProps"> 
+          </div> 
       
       <div className = "middleHome">
         Encontrá tu destino.

@@ -20,18 +20,20 @@
     background: #1ed6a8;
 }
 
+.divHomeSection {
+    height: 100%;
+}
 @media only screen and (max-width:717px) {
     .sectionName {
-        margin-top: 160px;
-        margin-left:0px;
-        width: 30%;
-        font-size: 1.0em;
-        height:30%;
-        padding: auto;
+        display: none;
     }
 
     .bannerSectionDiv {
-        margin-top:0px;
-        height:40%;
+        display: none;
+    }
+
+
+    .divHomeSection {
+        height: 130%;
     }
 }

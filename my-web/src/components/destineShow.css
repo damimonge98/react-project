@@ -38,7 +38,7 @@
 	height: 100%
 }
 
-@media only screen and (max-width:1283px) {
+@media only screen and (min-width:749px) and (max-width:1000px) {
 	.DestineShowStyle {
 		top: 17%;
 		left: 10%;
@@ -47,7 +47,7 @@
 	}
 }
 
-@media only screen and (max-width:748px) {
+@media only screen and (min-width:524px) and (max-width:748px) {
 	.DestineShowStyle {
 		top: 10%;
 		left: 5%;
@@ -55,27 +55,27 @@
 		bottom: 10%;
 	}
 	.info {
-		font-size: 3em;
+		font-size: 18px;
 	}
 }
 
-@media only screen and (max-width:523px) {
+@media only screen and (min-width:362px) and (max-width:523px) {
 	.DestineShowStyle {
-		top: 1%;
+		top: 20%;
 		left: 0.5%;
 		right: 0.5%;
-		bottom: 1%
+		bottom: 20%
 	}
 
 	.descriptionInfoDestine {
 		font-size: 0.8em;
 	}
 	.info {
-		font-size: 0.7em;
+		font-size: 20px;
 	}
 }
 
-@media only screen and (max-width:300px)  {
+@media only screen and (max-width:361px)  {
 	.DestineShowStyle {
 		top: 0%;
 		left: 0%;
@@ -89,6 +89,6 @@
 	}
 
 	.info {
-		font-size: 0.5em;
+		font-size: 20px;
 	}
 }

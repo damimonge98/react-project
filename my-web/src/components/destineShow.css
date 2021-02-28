@@ -1,13 +1,14 @@
 .DestineShowStyle {
 	position: fixed;
 	background-color: white;
-	top:90px;
-	right: 300px;
-	left: 300px;
-	bottom:90px;
+	top:17%;
+	right: 25%;
+	left: 25%;
+	bottom:17%;
 	border: 5px solid black;
 	justify-content: center;
 	border-radius: 10px;
+	overflow: hidden;
 	
 
 }
@@ -22,4 +23,72 @@
 
 .info {
 	text-align: center;
+	background: #1ED6A8;
+	color: white;
+	width: 100%;
+	margin-left: 160%;
+	font-family: Century Gothic;
+}
+
+.descriptionInfoDestine {
+	font-family: Century Gothic;
+	font-size: 1em;
+	width: 220%;
+	margin-left: 110%;
+	height: 100%
+}
+
+@media only screen and (max-width:1283px) {
+	.DestineShowStyle {
+		top: 17%;
+		left: 10%;
+		right: 10%;
+		bottom: 17%;
+	}
+}
+
+@media only screen and (max-width:748px) {
+	.DestineShowStyle {
+		top: 10%;
+		left: 5%;
+		right: 5%;
+		bottom: 10%;
+	}
+	.info {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width:523px) {
+	.DestineShowStyle {
+		top: 1%;
+		left: 0.5%;
+		right: 0.5%;
+		bottom: 1%
+	}
+
+	.descriptionInfoDestine {
+		font-size: 0.8em;
+	}
+	.info {
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (max-width:300px)  {
+	.DestineShowStyle {
+		top: 0%;
+		left: 0%;
+		right: 0%;
+		bottom: 0%;
+		border-radius: 0px;
+	}
+
+	.descriptionInfoDestine {
+		font-size: 0.8em;
+	}
+
+	.info {
+		font-size: 0.5em;
+	}
 }

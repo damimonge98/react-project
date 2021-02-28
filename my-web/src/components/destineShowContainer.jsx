@@ -4,10 +4,9 @@ import DestineShow from "./destineShow.jsx";
 import Footer from "./footer.jsx";
 
 export default function DestineShowContainer (props) {
-
-
+	
 	return (<div id = "DestineShowStyleContainer">
-			<DestineShow onClick = {props.onClick}/>
+			<DestineShow onClick = {props.onClick} name = {props.name}/>
 
 			</div>)
 			}

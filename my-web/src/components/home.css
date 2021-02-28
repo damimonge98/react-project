@@ -1,6 +1,5 @@
 .containerDiv {
-	display: grid;
-	grid-template-columns: 100%;
+	height: 100%
 }
 
 .titleHome {
@@ -39,6 +38,7 @@
 	font-family: Century Gothic;
 	background-image: url(https://storage.googleapis.com/md-media-cl/2020/11/buenos-aires-el-calafate-ushuaia-portada.jpg);
 	background-size: cover;
+	background-position: 50% 50%;
 	margin-top: 0px;
 }
 

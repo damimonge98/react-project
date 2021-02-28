@@ -25,7 +25,7 @@ export default function Destine (props) {
 			<h3 className = "Nombre">{props.name}</h3>
 			<img src = {props.img} alt = "No se encontro imagen" className = "Images"/>
 			<div className = "InfoProp">{props.info}</div>
-			<DestineShowContainer onClick = {onButtonClick}> 
+			<DestineShowContainer onClick = {onButtonClick} name = {props.name}> 
 			</DestineShowContainer>
 			 </div>)
 			}

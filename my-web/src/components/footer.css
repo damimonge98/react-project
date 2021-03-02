@@ -1,6 +1,8 @@
 .containerFooter {
+	display: inline-block;
     background-color: #BBFCFF;
-    height: 80px;
+    height: 100%;
+	width: 100%;
     margin-top: 30px;
 }
 
@@ -28,8 +30,8 @@
 
 @media only screen and (max-width:717px) {
 	.containerFooter {
-		height: 100%;
-	}
+		height: 100%;}
+
 
 	.footerContentDiv {
 		display: block;

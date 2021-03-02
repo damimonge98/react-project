@@ -45,6 +45,12 @@
 
 .navicon {
 	display: none;
+	cursor: pointer;
+}
+
+.navicon:hover {
+	background:#1ED6A8;
+	color: white;
 }
 
 .banner {
@@ -81,8 +87,12 @@
 	color: #03848d;
 	text-decoration: none;
 }
-
-@media only screen and (max-width:717px) {
+@media only screen and (min-width:650px) and (max-width: 912px) {
+	.NavLink {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width:649px) {
 
 	.NavLink{
 		display: none;

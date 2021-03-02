@@ -17,7 +17,7 @@ export default function Home () {
       <div className = "containerDiv">
         <SecondHeader name = "» Inicio" />
         <div className = "middleHome">
-       Viaja por Argentina </div>
+       Viajá por Argentina </div>
           <div className = "divProps"> 
           </div> 
       

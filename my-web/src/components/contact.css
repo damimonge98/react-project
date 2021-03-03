@@ -1,11 +1,61 @@
 .DivProps {
+	width: 100%;
+	height: 430px;
+	background: white;
+	display: flex;
+	
+}
+.consultDiv {
 	font-family: Century Gothic;
 	justify-content: center;
-	margin-top: 30px;
-	height: 230px;
+	background: #BBFCFF;
+	width: 100%;
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 .textContact {
 	text-align: center;
 }
+.formulario {
+	margin-top: 5%;
+}
+.form {
+	border: none;
+	margin-top: 1%;
+	margin-left: 2.5%;
+	display: block;
+	width: 95%;
+}
 
+.consulta {
+	border: none;
+	margin-top: 1%;
+	margin-left: 2.5%;
+	display: block;
+	width: 95%;
+	height: 130px;
+	text-align: center;
+	overflow: auto;
+}
+
+.imageContactDiv{
+	width: 100%;
+	background-image: url(https://culturainquieta.com/images/Cultura_Inquieta._Viajar_2.jpg);
+	background-size: cover;
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+@media only screen and (min-width:701px) and (max-width:1000px) {
+	.imageContactDiv {
+		background-position: 60% 60%;
+	}
+}
+@media only screen and (max-width:700px) {
+	.imageContactDiv {
+		display: none;
+	}
+}

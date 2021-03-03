@@ -8,8 +8,9 @@ export default function Contact () {
 	const [data, setData] = useState ({
 		nombre: "",
 		apellido: "",
-		consulta: "",
-		email: ""
+		asunto: "",
+		email: "",
+		
 	})
 
 	console.log(data)
@@ -20,24 +21,26 @@ export default function Contact () {
 	
 
 	return (
-		<div>
+		<div className = "containerContactDiv">
 			<SecondHeader name ="» Contacto"/>
 			<div className = "DivProps"> 
-				<p className = "textContact"> <b>Telefono:</b> +54(342)5456126  <br/>
-					<b>Facebook:</b> ViajAR <br/>
-					<b>Instagram:</b> @viajAr.turismo
-				</p>
-				
-				<p className = "textContact"> 
-				También podes dejarnos tus datos y te contactamos
-				<form>
-				<input type = "text" name = "nombre" value = {data.nombre} onChange = {handlerChange} placeholder= "Nombre..."/>
-				<input type = "text" name = "apellido" value = {data.apellido} onChange = {handlerChange} placeholder= "Apellido..."/>
-				<input type = "text" name = "consulta" value = {data.consulta} onChange = {handlerChange}placeholder= "Tipo de consulta..."/>
-				<input type = "text" name = "email" value = {data.email} onChange = {handlerChange}  placeholder= "E-mail.."/>
-				<input type = "submit" value = "ENVIAR" />
-				</form>
-				</p>
+
+				<div className = "consultDiv">
+					<h1 className = "title"> Realizá tu consulta</h1>
+					
+					<form className = "formulario"> 
+					<input className = "form" type = "text" name = "nombre" value = {data.nombre} onChange = {handlerChange} placeholder= "Nombre..."/>
+					<input className = "form" type = "text" name = "apellido" value = {data.apellido} onChange = {handlerChange} placeholder= "Apellido..."/>
+					<input className = "form" type = "text" name = "asunto" value = {data.asunto} onChange = {handlerChange}placeholder= "Tipo de consulta..."/>
+					<input className = "form" type = "text" name = "email" value = {data.email} onChange = {handlerChange}  placeholder= "E-mail.."/>
+					<input className = "consulta" type = "text" name = "consulta" value = {data.consulta} onChange = {handlerChange} />
+					<input className = "form" type = "submit" value = "ENVIAR" />
+					</form>					
+
+				</div>
+
+				<div className = "imageContactDiv"></div>
+
 			</div>
 		<Footer/>
 			

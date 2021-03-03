@@ -19,7 +19,7 @@ export default function NavBar () {
 		<div className = "containerDivNavBar">
 			<div className = "DivProp"> 
 				<div className = "navicon" onClick = {setMenuHandler}> ☰ </div>
-				<img onClick = {onReturn} src = "http://imgfz.com/i/wzDp4dx.jpeg" className = "images"/>					
+				<img onClick = {onReturn} src = "https://i.postimg.cc/VkTThpVK/viaj-AR-removebg-preview-3.png" className = "images"/>					
 				<NavLink to = "/" className = "NavLink"> HOME</NavLink>
  				<NavLink to = "/destines" className = "NavLink" >DESTINOS</NavLink>
  				<NavLink to = "/about" className = "NavLink">SOBRE NOSOTROS</NavLink>

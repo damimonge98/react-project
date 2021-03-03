@@ -16,11 +16,12 @@ export default function Home () {
   return (
       <div className = "containerDiv">
         <SecondHeader name = "» Inicio" />
+    
         <div className = "middleHome">
-       Viajá por Argentina </div>
+       Viajá por Argentina. </div>
           <div className = "divProps"> 
           </div> 
-      
+
       <div className = "middleHome">
         Encontrá tu destino.
       </div>

@@ -31,7 +31,7 @@ export default function SecondHeader (props) {
 
     return (
     <div className = "divHomeSection">
-        <div style = {containerDivSecondHeader}> 
+        <div className = "divSection" style = {containerDivSecondHeader}> 
         <div className = "sectionName"> <i className="fas fa-angle-double-right"></i>  {props.name} </div>
         </div>
         <div className = "bannerSectionDiv"></div>

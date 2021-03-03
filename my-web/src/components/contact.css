@@ -8,7 +8,7 @@
 .consultDiv {
 	font-family: Century Gothic;
 	justify-content: center;
-	background: #BBFCFF;
+	background: #95ffd8;
 	width: 100%;
 	margin-top: 3%;
 	margin-left: 3%;
@@ -27,6 +27,21 @@
 	margin-left: 2.5%;
 	display: block;
 	width: 95%;
+}
+
+.formSend {
+	border: none;
+	margin: auto;
+	margin-top: 1.5%;
+	display: block;
+	width: 30%;
+	background: #00AF6F;
+	color: white;
+}
+
+
+.title {
+	margin-top: 2%;
 }
 
 .consulta {
@@ -57,5 +72,19 @@
 @media only screen and (max-width:700px) {
 	.imageContactDiv {
 		display: none;
+	}
+
+	.title {
+		margin-top: 8%;
+	}
+
+	.formSend {
+		border: none;
+		margin: auto;
+		margin-top: 2%;
+		display: block;
+		width: 30%;
+		background: #00AF6F;
+		color: white;
 	}
 }

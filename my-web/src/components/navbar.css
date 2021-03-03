@@ -1,13 +1,13 @@
 .containerDivNavBar {
 	width: 100%;
 	height: 100%;
-	background: #1ED6A8;
+	background: #00AF6F;
 }
 
 .DivProp {
 	width: 100%;
 	height: 100%;
-	background-color: #BBFCFF;
+	background-color: #aefade;
 	display: flex;
 	justify-content: space-around;
 	align-items:center;
@@ -18,7 +18,7 @@
 	font-family: Century Gothic;
 	font-size: 20px;
 	text-decoration: none;
-	color: #03848d;
+	color: #015737c7;
 	font-weight: bold;
 	text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
@@ -31,11 +31,12 @@
 .NavLink:hover, .NavLink:focus {
 	background-size: 100% 2px;
 	text-decoration: none;
-	color: #03848d
+	color: #015737c7
 }
 
 
 .images {
+	padding-top: 0.5%;
 	margin-right: 0px;
 	margin-left: 0px;
 	height: 80px;
@@ -49,13 +50,13 @@
 }
 
 .navicon:hover {
-	background:#1ED6A8;
+	background:#00AF6F;
 	color: white;
 }
 
 .banner {
 	display: block;
-	background-color: rgb(38, 170, 152);
+	background-color: #00AF6F;
 	width: all;
 	height: 10px;
 }
@@ -76,15 +77,17 @@
 	margin-top: 2%;
 	list-style-type: none;
 	font-family: Century Gothic;
-	background: #1ED6A8;	
+	background: #00AF6F;
+	font-size: 20px;	
 }
+
 
 .elementsMenu {
 	color: white;
 }
 
-.elementsMenu:focus {
-	color: #03848d;
+.elementsMenu:focus, .elementsMenu:hover {
+	color: #015737c7;
 	text-decoration: none;
 }
 @media only screen and (min-width:650px) and (max-width: 912px) {
@@ -101,7 +104,6 @@
 	.images {
 		display: block;
 		margin-right: 20%;
-		margin-top: auto;
 		margin-bottom: auto;
 	}
 
@@ -109,6 +111,6 @@
 		display: flex;
 		font-size: 2em;
 		margin: auto;
-		color:  rgb(89, 175, 247);
+		color:  #00AF6F;
 	}
 }

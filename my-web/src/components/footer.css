@@ -1,6 +1,6 @@
 .containerFooter {
 	display: inline-block;
-    background-color: #BBFCFF;
+    background-color: #aefade;
     height: 100%;
 	width: 100%;
     margin-top: 30px;
@@ -9,14 +9,14 @@
 
 .banner {
 	display: block;
-	background-color: #1ed6a8;
+	background-color: #00AF6F;
 	width: all;
 	height: 10px;
 }
 
 .miniBanner {
 	display: block;
-	background-color: #03848d ;
+	background-color: #015737c7 ;
 	width: all;
 	height: 5px;
 }

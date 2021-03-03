@@ -34,7 +34,7 @@ export default function Contact () {
 					<input className = "form" type = "text" name = "asunto" value = {data.asunto} onChange = {handlerChange}placeholder= "Tipo de consulta..."/>
 					<input className = "form" type = "text" name = "email" value = {data.email} onChange = {handlerChange}  placeholder= "E-mail.."/>
 					<input className = "consulta" type = "text" name = "consulta" value = {data.consulta} onChange = {handlerChange} />
-					<input className = "form" type = "submit" value = "ENVIAR" />
+					<input className = "formSend" type = "submit" value = "ENVIAR" />
 					</form>					
 
 				</div>

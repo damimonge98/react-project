@@ -2,7 +2,7 @@
 	margin:auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	background-color: #1ed6a8;
+	background-color: #00AF6F;
 	width: 300px;
 	height: 300px;
 	padding: 1px;
@@ -12,7 +12,7 @@
 }
 
 .DestineProp:hover {
-	background-color: #B2F5DD;
+	background-color: #aefade;
 }
 
 .DestinePropWithoutHover {

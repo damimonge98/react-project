@@ -49,10 +49,6 @@
 	cursor: pointer;
 }
 
-.navicon:hover {
-	background:#00AF6F;
-	color: white;
-}
 
 .banner {
 	display: block;
@@ -103,6 +99,7 @@
 
 	.images {
 		display: block;
+		margin-top:10px;
 		margin-right: 20%;
 		margin-bottom: auto;
 	}
